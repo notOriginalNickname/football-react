@@ -18,6 +18,8 @@ export function getPositionTranslation(position) {
       return 'Нападение';
     case 'Goalkeeper':
       return 'Вратарь';
+    case 'Keeper':
+      return 'Вратарь';
     case 'Defence':
       return 'Защита';
     case 'Midfielder':
