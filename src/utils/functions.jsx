@@ -16,6 +16,8 @@ export function getPositionTranslation(position) {
       return 'Полузащита';
     case 'Offence':
       return 'Нападение';
+    case 'Forward':
+      return 'Нападение';
     case 'Goalkeeper':
       return 'Вратарь';
     case 'Keeper':
