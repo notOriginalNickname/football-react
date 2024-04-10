@@ -1,0 +1,59 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+}
+
+.left-col,
+.right-col {
+  flex: 1;
+  max-width: 400px;
+}
+
+.team-players-ul,
+.team-competition-ul {
+  list-style-type: none;
+}
+
+.link-player,
+.link-team-matches,
+.link-competition {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.link-team-matches {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.link-player {
+  font-weight: 500;
+}
+
+.link-player:hover,
+.link-team-matches:hover,
+.link-competition:hover,
+.team-site:hover {
+  color: rgb(0, 197, 0);
+  transform: scale(1.06);
+  display: inline-block;
+}
+
+.team-club-name {
+  width: 500px;
+}
+
+.team-site {
+  text-decoration: none;
+  color: black;
+}
+
+.team-crest {
+  margin-top: 20px;
+  width: 200px;
+}

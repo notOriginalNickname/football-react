@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+}
+
+.competition-calendar-ul {
+    flex-wrap: wrap;
+    display: flex;
+    width: 1600px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.date-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.date-calendar {
+    margin: 10px 30px 10px auto;
+    border: #1212128a 1px solid;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.date-calendar:focus {
+    outline: none;
+}
+
+.calendar-label {
+    align-items: flex-start;
+}
+
+.error-message-centered {
+    font-size: 32px;
+    font-weight: 900;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1800px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .date-input-container {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .calendar-label {
+        margin: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .date-calendar {
+        width: auto;
+        margin: 10px auto;
+    }
+
+    .competition-calendar-ul {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+}

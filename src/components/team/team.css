@@ -1,0 +1,51 @@
+.team-li {
+    background-color: #90909036;
+    width: 230px;
+    margin: 0 75px 20px 0;
+    border: black 1px solid;
+    border-radius: 14px;
+    padding: 7px;
+}
+
+.team-crest {
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.team-name {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.teams-founded,
+.stadion {
+    margin-right: auto;
+}
+
+
+
+.flag {
+    width: 50px;
+}
+
+.country {
+    margin-left: 5px;
+}
+
+.link-team {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-li {
+    transition: background-color 0.5s ease;
+}
+
+.team-li:hover {
+    background-color: #7ef33549;
+}

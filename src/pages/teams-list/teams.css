@@ -1,0 +1,35 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.team-ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1300px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.search-team {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    height: 40px;
+    margin-top: 15px;
+    border: #1212128a 1px solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.search-league::placeholder {
+    color: #999;
+}
+
+.search-league:focus {
+    outline: none;
+}

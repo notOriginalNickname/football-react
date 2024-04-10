@@ -1,0 +1,92 @@
+.competition-calendar-li {
+    width: 60%;
+    height: 70px;
+    margin: 20px 75px 15px 0;
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90909014;
+}
+
+.home-row,
+.away-row {
+    display: flex;
+    padding-bottom: 7px;
+}
+
+.calendar-emblem-li {
+    margin: 0;
+    max-height: 25px;
+}
+
+
+.score {
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.col1 {
+    margin-left: 25px;
+    width: 300px;
+}
+
+.col2 {
+    margin-right: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.codeLeague {
+    margin: 0;
+    text-align: center;
+}
+
+.competition-calendar-flag {
+    width: 50px;
+    padding-bottom: 7px;
+}
+
+.competition-calendar-date {
+    padding-right: 20px;
+}
+
+.no-score {
+    font-size: 20px;
+}
+
+.competition-team-link:hover {
+    color: rgb(0, 197, 0);
+    transform: scale(1.06);
+    display: inline-block;
+}
+
+.competition-team-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-left: 10px;
+
+}
+
+@media only screen and (max-width: 1137px) {
+    .competition-calendar-li {
+        width: 90% !important;
+        margin: 20px auto 15px auto !important;
+    }
+
+    .col1 {
+        width: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .col2 {
+        margin-right: 0 !important;
+    }
+}

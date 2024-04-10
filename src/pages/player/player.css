@@ -1,0 +1,61 @@
+.player-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-info {
+  text-align: center;
+}
+
+.player-team-emblem {
+  width: 200px;
+}
+
+.link-player {
+  font-weight: 500;
+}
+
+.link-player:hover {
+  color: rgb(0, 197, 0);
+  transform: scale(1.06);
+  display: inline-block;
+}
+
+.player-info {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.player-info h1 {
+  margin-bottom: 10px;
+}
+
+.player-info p {
+  margin-bottom: 5px;
+}
+
+.player-info ul {
+  margin-top: 10px;
+}
+
+.player-info ul li {
+  margin-bottom: 5px;
+}
+
+.player-team-link:hover,
+.player-competition-link:hover {
+  color: rgb(0, 197, 0);
+  transform: scale(1.06);
+  display: inline-block;
+}
+
+.player-team-link,
+.player-competition-link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+
+}
